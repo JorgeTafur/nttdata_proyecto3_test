@@ -1,0 +1,43 @@
+HELP.md
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Ignore everything in the target directory
+/target/*
+
+# Except for the openapi generated sources
+!/target/generated-sources/
+!/target/generated-sources/openapi/
+!/target/generated-sources/openapi/src/
+!/target/generated-sources/openapi/src/main/
+!/target/generated-sources/openapi/src/main/java/
+
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
