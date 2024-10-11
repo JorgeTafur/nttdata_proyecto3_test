@@ -1,18 +1,8 @@
 HELP.md
 !.mvn/wrapper/maven-wrapper.jar
+target/
 !**/src/main/**/target/
 !**/src/test/**/target/
-
-# Ignore everything in the target directory
-/target/*
-
-# Except for the openapi generated sources
-!/target/generated-sources/
-!/target/generated-sources/openapi/
-!/target/generated-sources/openapi/src/
-!/target/generated-sources/openapi/src/main/
-!/target/generated-sources/openapi/src/main/java/
-
 
 ### STS ###
 .apt_generated
